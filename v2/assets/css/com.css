@@ -133,10 +133,10 @@ tr {
 
 .fb-comments-comment-actions likes {
   font-size: 13px;
-  background: url(../img/like.png);
+  background: url(../img/likes.png);
   background-repeat: no-repeat;
   background-size: contain;
-  padding-left: 26px;
+  padding-left: 40px;
   padding-right: 6px;
   padding-top: 3px;
   padding-bottom: 2px;
