@@ -14,8 +14,8 @@ const QUESTIONS = [
     {
         title: "PREGUNTA 3 DE 3:",
         description: "Si por medio de un video conocieras todo el método con la solución definitiva, ¿Estarías dispuesta a verlo hasta el final?",
-        confirm: "Si, deseo",
-        deny: "No, gracias",
+        confirm: "Si, lo deseo",
+        deny: "No, no deseo",
     },
 ];
 
