@@ -1,13 +1,13 @@
 const QUESTIONS = [
     {
         title: "PREGUNTA 1 DE 3:",
-        description: "¿Usted sabe algo sobre el Método Cero-Grasa de la isla de Vietnam?",
+        description: "¿Actualmente usted se encuentra con más de 10 KG extras?",
         confirm: "Si",
         deny: "No",
     },
     {
         title: "PREGUNTA 2 DE 3:",
-        description: "¿Quisiera reducir tallas sin preocuparse por hacer ejercicio y sin dejar de comer?",
+        description: "¿Quisiera reducir sus tallas sin preocuparse por hacer ejercicio y sin dejar de comer?",
         confirm: "Si",
         deny: "No",
     },

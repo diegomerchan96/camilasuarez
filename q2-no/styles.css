@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
 
 @font-face {
     font-family: "Trebuchet MS";
@@ -42,37 +42,48 @@ h6 {
     width: 100%;
     max-width: 990px;
     margin: 0 auto;
-    padding: 0 0.7rem;
+    padding: 0 1rem;
+    background: #000;
+    border-radius: 15px 15px 0 0;
 }
 
-.featured {
-    color: #ff0000;
-}
-
-.important {
-    color: #fab837;
-    font-family: "Sedgwick Ave", cursive;
-    font-size: 24px;
-}
-
-.left {
-    text-align: left;
-    max-width: 570px;
-    margin: 0 auto;
-}
-
-.no-p {
-    padding: 0;
+.minor {
+    padding: 0 0.3rem;
 }
 
 .top {
     padding-top: 30px;
     background: #171717;
-    color: #fff;
+}
+
+.bar {
+    width: calc(100% - 0.3rem);
+    max-width: 980px;
+    height: 10px;
+    background: #ff0000;
+    border-radius: 15px 15px 0 0;
+    margin: 0 auto 10px auto;
+}
+
+.p22{
+    color: #FAB837;
+    font-family: "Sedgwick Ave", Sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    
 }
 
 .underline {
     text-decoration: underline;
+}
+
+.featured {
+    color: #f60303;
+    font-weight: 700;
+}
+
+.responde{
+    color: #fff;
 }
 
 .flex {
@@ -83,18 +94,12 @@ h6 {
     gap: 20px;
 }
 
-.first {
-    background: #000000;
-    padding-top: 1.2rem;
-    border-radius: 15px 15px 0px 0px;
-}
-
 .flex-1 {
     flex: 1;
 }
 
 .no-margin {
-    margin: 0 0 2rem 0;
+    margin: 0;
 }
 
 .center {
@@ -113,11 +118,16 @@ h6 {
     text-transform: uppercase;
     font-style: italic;
     color: #ffffff;
-    margin: 0 0 1.2rem 0;
+    margin: 20px 0;
 }
 
 .medium {
     font-weight: 500;
+    font-family: "Roboto", Sans-serif;
+    font-size: 26px;
+}
+.whitespan{
+    color: #fff;
 }
 
 .bold {
@@ -127,10 +137,9 @@ h6 {
 .image {
     width: 70%;
     border-style: solid;
-    border-width: 4px;
+    border-width: 3px;
     border-color: #ff0000;
     border-radius: 10px 10px 10px 10px;
-    margin-bottom: 0.4rem;
 }
 
 .dark {
@@ -200,11 +209,6 @@ h6 {
     margin: 0;
 }
 
-.t {
-    font-size: 26px;
-    line-height: 26px;
-}
-
 @media (max-width: 768px) {
     .flex {
         flex-direction: column;
@@ -214,16 +218,24 @@ h6 {
         max-width: 100%;
     }
 
+    .image {
+        width: 70%;
+    }
+
     .notice {
-        font-size: 26px;
+        font-size: 28px;
+    }
+
+    .subtitle {
+        font-size: 24px;
     }
 
     .space {
-        gap: 16px;
+        gap: 0px;
     }
 
     .no-margin {
-        font-size: 18px;
+        font-size: 15px;
         margin-bottom: 20px;
     }
 
@@ -231,13 +243,12 @@ h6 {
         font-size: 17px;
     }
 
-    .t {
-        font-size: 24px;
+    .announce{
+        padding: 1.5rem 1rem 2rem 1rem;
     }
 
-    .left {
-        text-align: center;
-        font-size: 14px;
-        margin-bottom: 1rem;
+    .p22{
+        margin: 0 0 20px 0;
     }
+    
 }
