@@ -15,7 +15,7 @@ const QUESTIONS = [
         title: "PREGUNTA 3 DE 3:",
         description: "Si por medio de un video conocieras todo el método con la solución definitiva, ¿Estarías dispuesta a verlo hasta el final?",
         confirm: "Si, lo deseo",
-        deny: "No, no gracias",
+        deny: "No, no deseo",
     },
 ];
 
@@ -33,7 +33,7 @@ btn.forEach(button => {
 
         if (index === QUESTIONS.length) {
             announce.parentElement.classList.add("hidden");
-            window.location.href = "https://camilasuarez.com/vd2";
+            window.location.href = "https://camilasuarez.com/vd3";
             return;
         }
 
