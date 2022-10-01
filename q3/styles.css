@@ -18,6 +18,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Roboto", sans-serif;
+    background: #000;
 }
 
 img {
@@ -26,6 +27,10 @@ img {
 
 a {
     color: inherit;
+}
+
+p {
+    color: #fff;
 }
 
 h1,
@@ -150,6 +155,9 @@ h6 {
     letter-spacing: 1px;
     font-size: 22px;
     margin-bottom: 1rem;
+}
+.pwh{
+    color: #fff;
 }
 
 .q {
