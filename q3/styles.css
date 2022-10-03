@@ -219,6 +219,9 @@ h6 {
     .subtitle {
         font-size: 22px;
     }
+    .btn{
+        padding: 5% 20%;
+    }
 
     .space {
         gap: 16px;

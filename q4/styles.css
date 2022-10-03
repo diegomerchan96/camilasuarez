@@ -8,6 +8,13 @@
     src: local("Trebuchet MS"), url("./fonts/trebuc.woff") format("woff");
 }
 
+@font-face {
+    font-family: "Anton";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Anton"), url("./fonts/Anton-Regular.ttf") format("truetype");
+}
+
 *,
 *::before,
 *::after {
@@ -69,6 +76,22 @@ h6 {
 .featured {
     color: #f60303;
     font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+hr {
+    height: 4px;
+    width: 30%;
+    background-color: #ff0000;
+    margin: 5px auto;
+    border: none;
+}
+
+h2{
+    text-align: center;
+    color: #2d3237;
+    font-size: 27px;
 }
 
 .flex {
@@ -103,6 +126,7 @@ h6 {
     color: #ffffff;
     margin: 0;
     text-align: center;
+    padding: 5px;
 }
 
 .medium {
@@ -219,10 +243,15 @@ h6 {
 
     .no-margin {
         font-size: 18px;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
+        color: #ff0200;
+        font-weight: bold;
     }
 
     .q {
         font-size: 17px;
+    }
+    .btn{
+        padding: 5% 20%;
     }
 }

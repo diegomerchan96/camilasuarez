@@ -1,20 +1,20 @@
 const QUESTIONS = [
     {
         title: "PREGUNTA 1 DE 3:",
-        description: "¿Actualmente usted se encuentra con más de 10 KG extras?",
+        description: "¿Sientes que intentas de TODO pero no llegas a tus objetivos?",
         confirm: "Si",
         deny: "No",
     },
     {
         title: "PREGUNTA 2 DE 3:",
-        description: "¿Quisiera reducir sus tallas sin preocuparse por hacer ejercicio y sin dejar de comer?",
+        description: "¿Quisieras reducir tus tallas sin preocuparte de hacer ejercicio y sin dejar de comer?",
         confirm: "Si",
         deny: "No",
     },
     {
         title: "PREGUNTA 3 DE 3:",
-        description: "Si por medio de un video conocieras todo el método con la solución definitiva, ¿Estarías dispuesta a verlo hasta el final?",
-        confirm: "Si, lo deseo",
+        description: "Si por medio de un video conocieras la solución definitiva para eliminar Kg, ¿Estarías dispuesta a verlo completo?",
+        confirm: "Si, quiero verlo",
         deny: "No, no deseo",
     },
 ];
@@ -33,7 +33,7 @@ btn.forEach(button => {
 
         if (index === QUESTIONS.length) {
             announce.parentElement.classList.add("hidden");
-            window.location.href = "https://camilasuarez.com/vd3";
+            window.location.href = "https://camilasuarez.com/vd4";
             return;
         }
 
