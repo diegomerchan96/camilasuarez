@@ -33,7 +33,7 @@ btn.forEach(button => {
 
         if (index === QUESTIONS.length) {
             announce.parentElement.classList.add("hidden");
-            window.location.href = "https://camilasuarez.com/vd4";
+            window.location.href = "https://camilasuarez.com/experta";
             return;
         }
 
