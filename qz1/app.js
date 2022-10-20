@@ -13,7 +13,7 @@ const QUESTIONS = [
     },
     {
         title: "PREGUNTA 3 DE 3:",
-        description: "Si por medio de un video conocieras la solución definitiva de enamorar a un hombre,¿Estarías dispuesta a verlo completo?",
+        description: "Si por medio de un video conocieras la solución definitiva de enamorar a un hombre, ¿Estarías dispuesta a verlo completo?",
         confirm: "Si, quiero verlo",
         deny: "No, no deseo",
     },
