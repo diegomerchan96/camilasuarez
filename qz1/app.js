@@ -7,7 +7,7 @@ const QUESTIONS = [
     },
     {
         title: "PREGUNTA 2 DE 3:",
-        description: "¿Quién terminó suúltima relación?",
+        description: "¿Quién terminó su última relación?",
         confirm: "Yo",
         deny: "El",
     },
