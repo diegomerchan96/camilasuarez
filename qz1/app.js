@@ -1,19 +1,19 @@
 const QUESTIONS = [
     {
         title: "PREGUNTA 1 DE 3:",
-        description: "¿Sientes que intentas de TODO pero no llegas a tus objetivos?",
+        description: "¿Estás en una relación actualmente?",
         confirm: "Si",
         deny: "No",
     },
     {
         title: "PREGUNTA 2 DE 3:",
-        description: "¿Quisieras reducir tus tallas sin preocuparte de hacer ejercicio y sin dejar de comer?",
-        confirm: "Si",
-        deny: "No",
+        description: "¿Quién terminó su última relación?",
+        confirm: "Yo",
+        deny: "El",
     },
     {
         title: "PREGUNTA 3 DE 3:",
-        description: "Si por medio de un video conocieras la solución definitiva para eliminar Kg, ¿Estarías dispuesta a verlo completo?",
+        description: "Si por medio de un video conocieras la solución definitiva de enamorar a un hombre,¿Estarías dispuesta a verlo completo?",
         confirm: "Si, quiero verlo",
         deny: "No, no deseo",
     },
